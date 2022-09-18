@@ -15,6 +15,8 @@
   <div class="container bg-primary p-3"  style="width: 70%">
     <div class="text-center">
       <div class=" " >
+
+        <div id="error"></div>
       <input type="text" placeholder="Enter city name" class="rounded p-3 w-100 ">
     <div class="d-flex mt-2 gap-3 align-items-center" >
           <div style="width:100%; height:1px; background:white;"></div>
@@ -24,12 +26,12 @@
         <button type="button" class="p-3 w-100 border rounded text-lg ">Your current location</button>
       </div>
     
-       <div class="mt-4">
-       <img class="weather_img" src="" />
+       <div class="weather_detail mt-4" style="display: none;">
+       <img class="weather_img" style="width:100px" src="" />
        <h5 class="city text-white"></h5>
        <!-- <h4 class="lat"></h4> -->
-       <!-- <h4 class="long"></h4> -->
-       <h5 class="country text-white"></h5>
+       <h2  class="text-warning"> <span class="long text-warning"></span> <sup>o</sup> C</h2>
+       <h5 class="country text-white"> </h5>
        <h5 class="name text-white"></h5>
       </div>
 
